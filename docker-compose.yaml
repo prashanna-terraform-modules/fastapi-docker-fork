@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  backend:
+    image: "fastapi_sample:${VERSION}"
+    ports:
+      - 8888:80
