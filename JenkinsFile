@@ -3,17 +3,17 @@ pipeline {
     stages{
         stage ('build'){
             steps{
-                echo "building..."
+                echo "building from webhook..."
             }
         }
         stage ('test'){
             steps{
-                echo "testing..."
+                echo "testing from webhook..."
             }
         }
         stage ('deploy'){
             steps{
-                echo "deploying..."
+                echo "deploying from webhook..."
             }
         }
     }
