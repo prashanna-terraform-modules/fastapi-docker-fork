@@ -1,4 +1,5 @@
 # FastAPI-DOCKER
+[![Build Status](http://18.195.208.81:8080/buildStatus/icon?job=fastapi-docker)](http://18.195.208.81:8080/job/fastapi-docker/)
 * To setup this repo in local system, clone the repo and run `local_setup.sh` script
 * Activate the python virtual environment `source venv/bin/python`
 
