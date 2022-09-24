@@ -3,12 +3,14 @@ pipeline {
     stages{
         stage ('build'){
             steps{
-                echo "building from webhook..."
+                sh 'chmod +x ./scripts/setup.sh'
+                sh './scripts/setup.sh'
             }
         }
         stage ('test'){
             steps{
-                echo "testing from webhook..."
+                sh 'pylint'
+                sh 'pytest'
             }
         }
         stage ('deploy'){
