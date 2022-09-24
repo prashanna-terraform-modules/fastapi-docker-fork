@@ -13,7 +13,7 @@ pipeline {
         }
         stage ('deploy'){
             steps{
-                echo "deploying from webhook..."
+                echo "deploying from webhook ..."
             }
         }
     }
